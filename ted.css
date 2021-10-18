@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    background: #f0f0f0;
+    color: #333;
+    font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+header {
+    height: 54px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.space {
+    width: 1em;
+    height: 1em;
+}
+
+.headerlist ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerlist ul li {
+    margin-right: 1em;
+}
+
+section {
+    padding-bottom: 2rem;
+}
+
+.topone {
+    margin: 3em 14em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topone img {
+    width: 30em;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 25px;
+    margin-top: 1rem;
+    background: rgb(235 0 40);
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.toptwo {
+    background-image: url('https://na.panasonic.com/us/sites/default/files/styles/blog_listing_tablet_2x/public/2019-09/tedx_live_production_live_4k_cinematic_live_projector_imag_production_cinelive_varicam_lt_eva1_aw-ue150_hrp1000_pt-rq22ku_large_venue_.png?itok=EobiaYyj');
+    padding-bottom: 1em;
+}
+
+.justifycontentcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.spacebeetween {
+    justify-content: space-between;
+}
+
+.topics {
+    opacity: 1;
+    border: 1px solid rgb(255, 255, 255);
+    display: block;
+    height: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.topics:hover {
+    background: #fff;
+}
+
+.toptwo button {
+    margin: 2em;
+    background: rgb(252, 82, 72);
+    opacity: .5;
+    border: rgb(252, 82, 72);
+    width: 10rem;
+    height: 2rem;
+}
+
+.topthree {
+    padding: 1rem 3rem;
+}
+
+.topthree h2 {
+    margin-bottom: 0;
+}
+
+.topthree .thumbnail {
+    width: 33%;
+    height: 16rem;
+    display: flex;
+}
+
+.t1 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/265d30c4-f4da-43d5-8e77-dccca2da1924/TzeporahBerman_2021T-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=512");
+}
+
+.t2 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/2372d9da-50b7-48ee-b030-b31ca2930d28/JennaLester_2021F-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=512");
+}
+
+.t3 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/2243847d-53af-4b75-9e15-155d633ebae7/HrishikeshHirway_2021-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=512");
+}
+
+.thumbnail span {
+    align-self: flex-end;
+    margin: 1em;
+    color: #fff;
+}
+
+.topfour {
+    margin-top: 2rem;
+    padding: 0 3rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topfour span {
+    background-image: url('https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/895277b0e9f1bb9f85bdef684d4e06764f454835_1200x627.jpg?cb=20160511&h=500&quality=90');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.topfour h2 {
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: xx-large;
+}
+
+.topfourbutton {
+    display: block;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.topfourbutton:hover {
+    opacity: .9;
+    background: #555;
+}
+
+.topfive {
+    padding: 5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) .1fr;
+    grid-gap: 1rem;
+}
+
+.topfive .thumbnail {
+    width: 100%;
+    height: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topfive .t1 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/11e8a090-3c6e-4aa6-8194-097c3350b028/SleepingWithScience_2020V_E02-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topfive .t2 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/b605e765-1120-4c01-9db7-365921df1fa3/SleepingWithScience_2020V_E04-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topfive .t3 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/0ddcca74-7899-4629-ba26-004bbae94b2e/HelenCzerski_2017X-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topfive .t4 {
+    background-image: url("https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/738646b40f9943d1c02f4ad3d1c16909511a9a91_1600x1200.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topfive .t5 {
+    background-image: url("https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/83b6197ead1303d82f0ccc05495c3a1d4f58d693_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topfive .t6 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/22966dd6-d4d4-4ca7-903d-60105af43369/JacquelineNovogratz_2020S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.textfive {
+    width: 100%;
+    background: #fff;
+    padding: 1rem 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+
+.topsix {
+    padding: 0 2rem;
+    background: #fff;
+}
+
+.topsix .ads {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.topsix .ads img {
+    border-left: 1px solid black;
+    width: 5rem;
+    padding-left: 1rem;
+}
+
+.topsix .grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.topsix .grids span {
+    background-image: url('https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/88265d521b79663b578d69b9232baeb392f844e0_2500x1306.jpg?cb=20160511&h=500&quality=90');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.topsix .grids div {
+    padding: 2rem;
+}
+
+.topseven {
+    padding: 5rem 2rem;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) .1fr;
+    grid-gap: 1rem;
+}
+
+.topseven .thumbnail {
+    width: 100%;
+    height: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topseven .t1 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/a4b8c52a-7095-4cf4-83ec-f9b2344bfaf2/salemwitchtrialstextless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topseven .t2 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/bffd1003-3268-4a43-a3fd-34b3b83bc219/cemeteries_textless_logo.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topseven .t3 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/67bc0cd9-11d5-4e83-ae8a-9f7cf370b48b/poe_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topseven .t4 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/df43afc4-cf4c-43fc-9513-df7b4719bc3d/232_goth.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topseven .t5 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/405b0ad8-d165-4ad0-801a-06010b105a4a/lovecraftian_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+.topseven .t6 {
+    background-image: url("https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/70911a41-7bfb-4938-8341-63a8ceb6f213/119_cavities.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=300");
+}
+
+footer {
+    background: #fff;
+
+}
+
+.footerone {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerone p {
+    margin-top: 0;
+    width: 35%;
+    text-align: center;
+    line-height: normal;
+}
+
+.footerone h3 {
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.footertwo {
+    padding: 1rem 5rem  0 20rem;
+    border-top: 2px solid rgb(255, 0, 0);
+    
+}
+.footertwo h3{
+    padding: 0 3rem 0 2.5rem ;
+    font-size: medium;
+    
+}
+footer img{
+    position: absolute;
+    width: 5rem;
+    margin-left: 13rem;
+}
+footer #right{
+    border-left: 1px solid black;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    
+
+}
+footer li{
+    font-weight: bold;
+    font-size:.75rem;
+}
+footer .final{
+    display: flex;
+    background: black;
+    padding-left: 10rem;
+    
+
+}
+footer .final ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+footer .final li{
+    margin-right: 1rem;
+}
+footer .final p{
+    margin-left: 10rem;
+    font-size: small;
+}
+footer .final p:hover{
+    color: white;
+}
+
+.icon {
+    display: block;
+    width: 10rem;
+    border-radius: 10px 10px 0 0;
+    background: #ff4c3b;
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.tag{
+    position: absolute;
+    display: block;
+    
+    background: red;
+    text-align: center;
+    padding: 2px;
+    margin: 4rem 1rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+
